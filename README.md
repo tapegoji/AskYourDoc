@@ -6,6 +6,22 @@ A powerful document query tool that leverages LangChain and various language mod
 
 AskYourDoc allows you to load PDF documents (especially technical datasheets), store them in a vector database, and query them using natural language. The tool uses RAG (Retrieval-Augmented Generation) to efficiently process large documents and provides accurate answers to your questions.
 
+## Why Choose AskYourDoc Over General AI Tools
+
+AskYourDoc offers several key advantages over general-purpose AI tools:
+
+- **Reduced Hallucinations**: By specifically querying your own documents, AskYourDoc significantly reduces the risk of AI hallucinations. The system only responds based on information actually present in your documents.
+  
+- **Control Over Sources**: You know exactly which documents are being used as reference material, ensuring reliability and traceability of information.
+
+- **Domain-Specific Accuracy**: General AI tools may not understand specialized technical content as well as a system specifically trained on your documents.
+
+- **Fine-Tuned Responses**: You can customize response formatting and structure to fit your specific needs using Pydantic models.
+
+- **Private Document Processing**: Your sensitive documents aren't sent to external AI providers for general training or usage.
+
+- **Verifiable Information**: Since you control the source documents, you can verify the accuracy of responses against known data.
+
 ## Features
 
 - Load and process PDF documents using DoclingLoader
