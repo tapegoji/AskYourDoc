@@ -1,0 +1,11 @@
+,Parameter,Symbol,Min.,Typ.,Max,Unit,Conditions,Note
+0,Drain - Source Voltage,V DS,,,1200,V,T C = 25°C,
+1,Maximum Gate - Source Voltage,V GS(max),-8,,+19,V,Transient,
+2,Operational Gate-Source Voltage,V GS op,,-4/15,,V,Static,Note 1
+3,DC Continuous Drain Current,I D,,,115,A,"V GS = 15 V, T C = 25 °C, T J ≤175 °C",Fig. 19 Note 2
+4,DC Continuous Drain Current,I D,,,85,A,"V GS = 15 V, T C = 100 °C, T J ≤175 °C",
+5,Pulsed Drain Current,I DM,,,250,A,"t Pmax limited by T jmax V GS = 15V, T C = 25 °C",Fig. 22
+6,Power Dissipation,P D,,,556,W,"T C = 25˚C, T J = 175 °C",Fig. 20
+7,Operating Junction and Storage Temperature,"T, J T stg",,,-40 to +175,°C,,
+8,Solder Temperature,T L,,,260,°C,According to JEDEC J-STD-020,
+9,Mounting Torque,M D,,,1 8.8,Nm Ibf-in,M3or 6-32 screw,

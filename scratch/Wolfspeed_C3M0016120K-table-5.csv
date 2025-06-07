@@ -1,0 +1,3 @@
+,Parameter,Symbol,Typ.,Unit,Test Conditions,Notes
+0,Thermal Resistance from Junction to Case,R θJC,0.27,°C/W,,Fig. 21
+1,Thermal Resistance from Junction to Ambient,R θJA,40,°C/W,,Fig. 21

@@ -1,0 +1,11 @@
+,Parameter,Symbol,Typ.,Max.,Unit,Test Conditions,Notes
+0,Diode Forward Voltage,V SD,4.6,-,V,"V GS = -4 V, I SD = 37.5 A, T J = 25°C","Fig. 8, 9,"
+1,,V SD,4.2,-,V,"V GS = -4 V, I SD = 37.5 A, T J = 175°C",10
+2,Continuous Diode Forward Current 1,I S,-,112,A,"V GS = -4 V, T C = 25°C",Note 3
+3,Diode Pulse Current,I SM,-,250,A,"V GS = -4 V, pulse width t P limited by T j max",Note 3
+4,Reverse Recovery Time,t rr,30,-,ns,"V GS = -4 V, I SD = 75 A, V R = 800 V di F /dt = 4000 A/μs T J = 175°C",Note 3
+5,Reverse Recovery Charge,Q rr,1238,-,nC,"V GS = -4 V, I SD = 75 A, V R = 800 V di F /dt = 4000 A/μs T J = 175°C",Note 3
+6,PeakReverse Recovery Current,I RRM,64,-,A,"V GS = -4 V, I SD = 75 A, V R = 800 V di F /dt = 4000 A/μs T J = 175°C",Note 3
+7,Reverse Recovery Time,t rr,27,-,ns,"V GS = -4 V, I SD = 75 A, V R = 800 V di F /dt = 5500 A/μs T J = 175°C",Note 3
+8,Reverse Recovery Charge,Q rr,1261,-,nC,"V GS = -4 V, I SD = 75 A, V R = 800 V di F /dt = 5500 A/μs T J = 175°C",Note 3
+9,PeakReverse Recovery Current,I RRM,77,-,A,"V GS = -4 V, I SD = 75 A, V R = 800 V di F /dt = 5500 A/μs T J = 175°C",Note 3

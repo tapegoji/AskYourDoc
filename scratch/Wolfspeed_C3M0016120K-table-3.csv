@@ -1,0 +1,26 @@
+,Parameter,Symbol,Min.,Typ.,Max.,Unit,Test Conditions,Note
+0,Drain-Source Breakdown Voltage,V (BR)DSS,1200,-,-,V,"V GS = 0 V, I D = 100 μA",Fig. 11
+1,Gate Threshold Voltage,V GS(th),1.8,2.5,3.6,V,"V DS = V GS, I D = 23 mA",Fig. 11
+2,,V GS(th),-,2.0,-,V,"V DS = V GS, I D = 23 mA, T J = 175°C",Fig. 11
+3,Zero Gate Voltage Drain Current,I DSS,-,1,50,μA,"V DS = 1200 V, V GS = 0 V",
+4,Gate-Source Leakage Current,I GSS,-,10,250,μA,"V GS = 15 V, V DS = 0 V",
+5,Drain-Source On-State Resistance,R DS(on),-,16,22.3,mΩ,"V GS = 15 V, I D = 75 A","Fig. 4, 5, 6"
+6,,R DS(on),-,28.8,-,mΩ,"V GS = 15 V, I D = 75 A, T J = 175°C","Fig. 4, 5, 6"
+7,Transconductance,g fs,-,53,-,S,"V DS = 20 V, I DS = 75 A",Fig. 7
+8,,g fs,-,47,-,S,"V DS = 20 V, I DS = 75 A, T J = 175°C",Fig. 7
+9,Input Capacitance,C iss,-,6085,-,pF,"V GS = 0 V, V DS = 1000 V ƒ = 100 khz V = 25 mV","Fig. 17, 18"
+10,Output Capacitance,C oss,-,230,-,pF,"V GS = 0 V, V DS = 1000 V ƒ = 100 khz V = 25 mV","Fig. 17, 18"
+11,Reverse Transfer Capacitance,C rss,-,13,-,pF,AC,"Fig. 17, 18"
+12,C oss Stored Energy,E oss,-,130,-,μJ,"V GS = 0 V, V DS = 1000 V ƒ = 100 khz V = 25 mV",Fig. 16
+13,Turn-On Switching Energy (SiC Diode FWD),E on,-,1.1,-,mJ,"V DS = 800 V, V GS = -4 V/+15 V, I D = 75 A, R G(ext) = 2.5 Ω, L= 65.7 μH, T J = 175ºC",Fig. 26
+14,Turn Off Switching Energy (SiC Diode FWD),E off,-,0.8,-,mJ,"V DS = 800 V, V GS = -4 V/+15 V, I D = 75 A, R G(ext) = 2.5 Ω, L= 65.7 μH, T J = 175ºC",Fig. 26
+15,Turn-On Switching Energy (Body Diode FWD),E on,-,2.3,-,mJ,"V DS = 800 V, V GS = -4 V/+15 V, I D = 75 A, R G(ext) = 2.5 Ω, L= 65.7 μH, T J = 175ºC",Fig. 26
+16,Turn Off Switching Energy (Body Diode FWD),E off,-,0.6,-,mJ,"V DS = 800 V, V GS = -4 V/+15 V, I D = 75 A, R G(ext) = 2.5 Ω, L= 65.7 μH, T J = 175ºC",Fig. 26
+17,Turn-On Delay Time,t d(on),-,34,-,ns,"V DD = 800 V, V GS = -4 V/15 V R G(ext) = 2.5 Ω, I D = 75 A, L = 65.7 μH, Timing relative to V DS , Inductive load",Fig. 27
+18,Rise Time,t r,-,33,-,ns,"V DD = 800 V, V GS = -4 V/15 V R G(ext) = 2.5 Ω, I D = 75 A, L = 65.7 μH, Timing relative to V DS , Inductive load",Fig. 27
+19,Turn-Off Delay Time,t d(off),-,65,-,ns,"V DD = 800 V, V GS = -4 V/15 V R G(ext) = 2.5 Ω, I D = 75 A, L = 65.7 μH, Timing relative to V DS , Inductive load",Fig. 27
+20,Fall Time,t f,-,13,-,ns,"V DD = 800 V, V GS = -4 V/15 V R G(ext) = 2.5 Ω, I D = 75 A, L = 65.7 μH, Timing relative to V DS , Inductive load",Fig. 27
+21,Internal Gate Resistance,R G(int),-,2.6,-,Ω,"ƒ = 1 MHz, V AC = 25 mV",
+22,Gate to Source Charge,Q gs,-,67,-,nC,"V DS = 800 V, V GS = -4 V/15 V I D = 75 A Per IEC60747-8-4 pg 21",Fig. 12
+23,Gate to Drain Charge,Q gd,-,61,-,nC,"V DS = 800 V, V GS = -4 V/15 V I D = 75 A Per IEC60747-8-4 pg 21",Fig. 12
+24,Total Gate Charge,Q g,-,211,-,nC,"V DS = 800 V, V GS = -4 V/15 V I D = 75 A Per IEC60747-8-4 pg 21",Fig. 12
